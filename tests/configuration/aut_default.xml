@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="adminLogin">administrator</entry>
+    <entry key="adminPassword">123456</entry>
+    <entry key="moderator">moderator</entry>
+    <entry key="moderatorPassword">123456</entry>
+    <entry key="estimator">estimator</entry>
+    <entry key="estimatorPassword">123456</entry>
+    <entry key="incorrectLogin">nikolay</entry>
+    <entry key="incorrectPassword">654321</entry>
+</properties>

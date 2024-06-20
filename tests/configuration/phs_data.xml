@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="directoryPhase">Мобильное приложение</entry>
+    <entry key="customPhase">Нативное приложение</entry>
+    <entry key="customTask">Анализ требований</entry>
+    <entry key="commentary">Описание задачи</entry>
+    <entry key="hoursFrom">4</entry>
+    <entry key="hoursTo">9</entry>
+</properties>

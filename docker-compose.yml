@@ -1,0 +1,19 @@
+version: '3'
+services:
+  selenoid:
+    network_mode: bridge
+    image: aerokube/selenoid:latest-release
+    volumes:
+      - ".:/etc/selenoid"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+  test:
+    network_mode: bridge
+    image: maven
+    volumes:
+      -  ./tests:/tests
+      -  ./m2:/root/.m2
+    environment:
+      - MAVEN_IN_DOCKER=true
+    working_dir: /tests
+    links:
+      - selenoid

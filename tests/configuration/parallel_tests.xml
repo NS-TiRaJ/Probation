@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EstimateMe UI test's " parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="helpers.TestListener"/>
+    </listeners>
+    <test name="Phase management test's">
+        <parameter name="testName" value="Phase Management Tests"/>
+        <classes>
+            <class name="tests.PhaseManagementTests">
+                <methods>
+                    <include name="addPhaseFromDirectory"/>
+                    <include name="addCustomPhase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Phase task management test's">
+        <parameter name="testName" value="Phase Task Management Tests"/>
+        <classes>
+            <class name="tests.PhaseTaskManagementTests">
+                <methods>
+                    <include name="addCommentaryToTask"/>
+                    <include name="addCustomTask"/>
+                    <include name="addTaskInPhaseFromDirectory"/>
+                    <include name="addHoursInFieldFrom"/>
+                    <include name="addHoursInFieldTo"/>
+                    <include name="deletePhase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

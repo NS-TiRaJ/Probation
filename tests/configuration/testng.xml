@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EstimateMe UI test's ">
+    <listeners>
+        <listener class-name="helpers.TestListener"/>
+    </listeners>
+    <test name="Authorization test,s">
+        <classes>
+            <class name="tests.LoginTests">
+                <methods>
+                    <include name="checkCorrectLoginPassAuth"/>
+                    <include name="checkIncorrectLoginPassAuth"/>
+                    <include name="checkCorrectLoginEmptyPassAuth"/>
+                    <include name="checkEmptyLoginPassAuth"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Grade test's">
+        <classes>
+            <class name="tests.GradeManagementTests">
+                <methods>
+                    <include name="createNewGrade"/>
+                    <include name="deleteGrade"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Phase management test's">
+        <classes>
+            <class name="tests.PhaseManagementTests"/>
+        </classes>
+    </test>
+    <test name="Phase task management test's">
+        <classes>
+            <class name="tests.PhaseTaskManagementTests"/>
+        </classes>
+    </test>
+</suite>

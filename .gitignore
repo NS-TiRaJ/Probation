@@ -1,0 +1,5 @@
+.idea
+*.iml
+m2/*
+tests/target/*
+.DS_Store

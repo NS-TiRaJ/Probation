@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="clientName">Пётр Иванов</entry>
+    <entry key="projectName">Банк ИнвестКредит</entry>
+    <entry key="description">Разработка мобильного приложения банка</entry>
+    <entry key="expert">Пётр Петров</entry>
+    <entry key="manager">Иван Иванов</entry>
+    <entry key="crmLink">link</entry>
+    <entry key="clientName2">Иван Петров</entry>
+    <entry key="projectName2">Пиццерия</entry>
+    <entry key="description2">Разработка сайта доставки</entry>
+    <entry key="expert2">Иван Иванов</entry>
+    <entry key="manager2">Пётр Петров</entry>
+    <entry key="crmLink2">ссылка</entry>
+</properties>
