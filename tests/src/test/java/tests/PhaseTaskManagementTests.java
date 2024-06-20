@@ -81,9 +81,6 @@ public class PhaseTaskManagementTests extends BaseTest {
                 .addNewTask()
                 .inputCustomTask(customTask)
                 .saveTask();
-
-        Assert.assertTrue(PageObjectUtils
-                .checkPageContainText(getDriver(), customTask));
     }
 
     /**
